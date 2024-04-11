@@ -16,6 +16,7 @@ if (answer.operator === "Addition") {
 }
 else if (answer.operator === "Subtraction") {
     console.log(answer.firstNumber - answer.secondNumber);
+    console.log("Test");
 }
 else if (answer.operator === "Multiplication") {
     console.log(answer.firstNumber * answer.secondNumber);
